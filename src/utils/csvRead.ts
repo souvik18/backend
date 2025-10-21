@@ -12,7 +12,7 @@ export function csvRead<Type = RecordType>(filePath: string): Promise<Type[]> {
           columns: true,
           skip_empty_lines: true,
           trim: true,
-          encoding: 'utf-8'
+          encoding: 'utf-8',
         }),
       )
       .on('data', (data: any) => {
