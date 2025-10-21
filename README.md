@@ -15,11 +15,12 @@ This backend service processes customer transaction records from uploaded .csv o
 
 ## Installation
 
-Install my-project with npm
+Install backend with npm
 
 ```bash
-git clone https://github.com/your-username/my-project.git
-cd my-project
+set node version to 22.18.0
+git clone https://github.com/souvik18/backend.git
+cd backend
 npm install
 ```
 After complete the project setup 
