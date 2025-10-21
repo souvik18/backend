@@ -1,0 +1,22 @@
+export const MESSAGES = {
+  incorrectEndBalance: 'Incorrect end balance',
+  duplicateTransaction: 'Duplicate transaction reference',
+  mutationValue: 'Mutation must be a signed number (e.g., +10.00, -5.50)',
+  invalidIban: 'Invalid IBAN',
+  unexpectedError: 'An unexpected error occurred',
+  largeFile: 'File too large. Max size is 5MB',
+  fileTypeError: 'Only .csv and .xml',
+  csvXmlFile: 'Only .csv and .xml files are allowed',
+  internalError: 'Internal server error',
+  unsupportedFile: 'Unsupported file format',
+  noFileUploaded: 'No file uploaded',
+  fileTooLarge: 'File too large',
+
+  zodReferenceErrMsg: 'Reference must be a positive number',
+  zodAccountNumberErrMsg: 'Account number must be a valid IBAN',
+  zodDescriptionErrMsg: 'Description is required',
+  zodStartBalanceErrMsg: 'Start balance is required',
+  zodMutationErrMsg: 'Mutation must be a valid string format',
+  zodMutationRequired: 'Mutation is Required',
+  zodEndBalanceErrMsg: 'End balance is required',
+};
