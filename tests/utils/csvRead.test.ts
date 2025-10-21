@@ -53,6 +53,7 @@ describe("csvRead", () => {
       columns: true,
       skip_empty_lines: true,
       trim: true,
+      encoding: "utf-8",
     });
  
     expect(result).toEqual([
