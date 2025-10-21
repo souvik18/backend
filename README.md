@@ -50,6 +50,7 @@ src/
 ├── middleware/        # Error handling
 ├── routes/            # Upload endpoint
 ├── constant.ts        # Message constants
+├── uploads            # Temporary file folder
 
 tests/                 # Jest test files
 ```
