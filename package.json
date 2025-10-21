@@ -4,6 +4,7 @@
   "type": "module",
   "description": "",
   "main": "server.ts",
+  "engines": {"node": ">=22.18.0"},
   "scripts": {
     "dev": "nodemon --exec ts-node src/server.ts",
     "lint": "eslint .",
